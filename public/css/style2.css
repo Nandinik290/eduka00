@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* navbar */
+
+
+.first {
+    background-color: #fff;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav {
+    
+    padding: 0;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    
+}
+
+.bran{
+    margin-left: 50px;
+}
+
+.v{
+    margin-left: 47%;
+}
+
+.head1{
+    font-family: 'Kalam', cursive;
+    color: #06283D; 
+}
+
+.nav-item {
+    font-size: 20px;
+    margin-left: 12px;
+    color: #06283D; 
+}
+
+.btn1{
+    width: 8%;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+.btn1:hover{
+    background-color: #06283D;
+    
+
+}
+.btn2{
+    width: 8%;
+    margin-left: 1%;
+    font-size: 20px;
+    background-color: #06283D;
+}
+
+.nav-drop{
+    color: #06283D; 
+}
+
+.dropdown{
+    color: #06283D; 
+}
+
+.sign-in-a , .sign-in-a:hover{
+    text-decoration: none;
+    color: #fff; 
+}
+
+.sign-up-a{
+    text-decoration: none;
+    color: #06283D;
+}
+.btn1:hover .sign-up-a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* /end navbar/ */
+
+
+/* all */
+
+
+
+.c {
+    padding: 10px;
+}
+
+.btn-cs {
+    width: 320px;
+    height: 60px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left:5px ;
+
+}
+
+.btn-ca{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-ca:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-cs:hover {
+    background-color: #35858B;
+    color: #fff;
+}
+
+.btn4 {
+    margin-right: 50px;
+    height: 60px;
+    width: 180;
+    font-size: 20px;
+    font-variant: small-caps;
+    border-color: black;
+    border-radius: 4rem;
+    background-color: #35858B;
+    color: #fff;
+}
+
+.search {
+    padding: 10px;
+    width: 30%;
+    height: 15%;
+}
+
+/* second */
+
+#second {
+    background-image: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-01.jpg');
+    height: 25rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.head{
+    color: #fff;
+    font-size: 4rem;
+    display: inline-block;
+    font-weight: 600;
+    margin: auto;
+    padding-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+/* Search */
+
+/* .search{
+    width: 360px;
+    height: 60px;
+    border-radius: 60px;
+    margin: auto;
+    margin-bottom:3.5rem ;
+    transition: 0.5s;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.search.active{
+    width:360px;
+}
+
+.search .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.search .icon::before{
+    content:'' ;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 3px solid;
+    border-radius: 50%;
+    transform: translate(-4px,-4px) rotate(315deg);
+}
+.search .icon::after{
+    content:'' ;
+    position: absolute;
+    width: 3px;
+    height: 12px;
+    background: black;
+    transform: translate(6px,6px) rotate(315deg);
+}
+
+.search .input{
+    position: relative;
+    width: 300px;
+    height: 60px;
+    left: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .input input{
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 100%;
+} */
+
+
+/* third */
+
+#third {
+    padding: 0 110px 90px;
+    margin: 0;
+}
+
+.edule {
+    font-size: 2.7em;
+    font-family: 'Nunito', sans-serif;
+    word-spacing: 5px;
+}
+
+.course-column {
+    width: 26rem;
+    padding: 0% 2% 3%;
+    margin: auto;
+}
+
+.course-card {
+    overflow: hidden;
+    height: 444px;
+}
+
+.cardimg {
+    height: 230px;
+    width: 100%;
+    transition: transform 1s;
+
+}
+
+.course-card:hover .cardimg {
+    transform: scale(1.05);
+
+
+}
+
+.course-btn {
+    float: right;
+    padding-top: 15px;
+}
+
+.course-modal {
+    width: 800px;
+}
+
+.info {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h5 {
+    padding: 10px;
+    font-size: 25px;
+    word-spacing: 2px;
+}
+
+h3 {
+    font-size: 50px;
+    word-spacing: 2px;
+}
+
+/* /footer/ */
+
+#fourth {
+    background-color: #E4F9F5;
+}
+
+a.text-d {
+    font-size: 1.3rem;
+    color: #063442;
+    font-variant: inherit;
+    font-family: 'Bree Serif', serif;
+    line-height: 1px;
+}
+
+.text-f {
+    font-size: 1.4rem;
+    color: #063442;
+}
+
+.text-foot {
+    font-size: 1.4rem;
+    color: black;
+}
+
+.z {
+    height: 25rem;
+    width: 25rem;
+    margin: 10px 75px;
+}
+
+.c2 {
+    height: 25rem;
+    width: 25rem;
+    background-color: #E4F9F5;
+}
+
+.exp2 {
+    font-size: 50px;
+    font-variant: small-caps;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    letter-spacing: 4.3px;
+}
+
+.z {
+
+    height: 17.5rem;
+    width: 17.5rem;
+    margin: 10px 128px;
+    padding: 10px;
+}
+
+#second {
+    margin-bottom: 140px;
+    padding-top: 30px;
+}
+
+.sec1 {
+    margin-left: 12px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 25px;
+    color: black;
+}
+
+.two1 {
+    margin-left: 140px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.sec2 {
+    margin-left: 60px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 25px;
+    color: black;
+}
+
+.two2 {
+    margin-left: 140px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.sec3 {
+    margin-left: 10px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 25px;
+    color: black;
+}
+
+.two3 {
+    margin-left: 140px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.sec4 {
+    margin-left: 125px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 24px;
+    color: black;
+}
+
+.two4 {
+    margin-left: 140px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.sec5 {
+    margin-right: 150px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 24px;
+    color: black;
+}
+
+.two5 {
+    margin-left: 140px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.btn3 {
+    margin-right: 5px;
+    height: 55px;
+    width: 45%;
+    font-size: 25px;
+    font-variant: small-caps;
+    border-color: black;
+    border-radius: 3rem;
+}
+
+.btn3:hover {
+    background-color: #35858B;
+    ;
+}
+
+.Haymarket {
+    margin-top: 0;
+}
+
+.mail {
+    float: right;
+    margin: 4px 0 0 6px;
+    font-size: 22px;
+}
+
+.number {
+    float: right;
+    margin: 5px 130px 0 3px;
+    font-size: 22px;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account form</title>
+
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+ integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+ crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+ crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+ crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f67b44a4a4.js" crossorigin="anonymous"></script>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dancing+Script:wght@700&family=Josefin+Sans:wght@300;400&family=Kalam:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!--CSS Stylesheet  -->
+    <link rel="stylesheet" href="/css/style5.css">
+</head>
+
+<body>
+
+
+
+
+    <section id="0ne">
+        <div class="first">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.jpg" alt="" width="60" height="60"
+                            class="d-inline-block bran text-centre">
+                        <span class="head1">Educa</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse v" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+
+
+
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                  <a class="dropdown-item" href="/register">Register Yourself</a>
+
+                                </div>
+                              </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-lg btn-outline-dark btn1"><a href="/register" target="_blank" class="sign-up-a"> Sign Up</a></button>
+                <button type="button" class="btn btn-lg btn-dark btn2"><a href="/login" target="_blank" class="sign-in-a"> Sign In</a></button>
+
+            </nav>
+        </div>
+
+    </section> <br><br>
+
+    <section id="two">
+        <div class="row third">
+            <div class="col-lg-6 col-mmd-6 col-sm-6 back">
+                <img src="https://htmldemo.net/edule/eduLe/assets/images/register-login.png" class="ig2" alt="">
+            </div>
+            <div class="col-lg-6 col-mmd-6 col-sm-6 x">
+                <h2 class="now">Login <span class="text-success">Now</span></h2>
+                <form action="/login" method="POST" >
+
+
+
+
+                  <% if (messages.error) { %>
+                  <div class="alert alert-danger">
+                    <strong><%= messages.error %> </strong>
+                  </div>
+                <% } %>
+
+
+
+                <input type="text" placeholder=" Email" class="user" name="email"> <br> <br>
+                <input type="password" placeholder="Password" class="pas" name="password"> <br> <br> <br>
+                <button class="butn1" >Login</button> <br><br>
+
+
+
+
+
+                    <button class="butn2">Login With Google</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="three">
+        <footer class="footer pt-5 pb-4">
+            <div class="container text-center text-md-left">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <img src="https://htmldemo.net/edule/eduLe/assets/images/logo.png" class="my-4" alt="">
+                        <p class="Haymarket">
+                            <span class="text-success">Haymarket, Virginia (VA).</span>
+                        </p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p class="mail">harshaldeore61@gmail.com</p>
+                        <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                        <p class="number">1234567890</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <strong>
+                            <p class="fs-2 text-success">Category</p>
+                        </strong>
+                        <p>
+                            <a href="" class="text-d" style="text-decoration: none">Creative Writing</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-d" style="text-decoration: none">Film and Video</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-d" style="text-decoration: none">Graphic Design</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-d" style="text-decoration: none">UI/UX Design</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-d" style="text-decoration: none">Marketing</a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <strong>
+                            <p class="fs-2 text-success">Quick Links</p>
+                        </strong>
+                        <p>
+                            <a href="" class="text-d" style="text-decoration: none">Privacy Policy</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-d" style="text-decoration: none">Discussion</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-d" style="text-decoration: none">Terms and Conditions</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-d" style="text-decoration: none">Customer Support</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-d" style="text-decoration: none">Course FAQ's</a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <strong>
+                            <p class="fs-2 text-success">Subscribe</p>
+                        </strong>
+                        <p>Lorem Ipsum has been them an industry printer took a galley make book.</p>
+
+
+                    </div>
+                </div>
+                <hr noshade>
+                <div class="">
+
+                    <div>
+                        <h3 class="text-f">Made With Love By <span class="text-success"><strong>TEAM CSE</strong></span>
+                        </h3>
+                    </div>
+                    <div>
+                        <h3 class="text-foot">2021 <strong>Edu<span class="text-success">-Le</span></strong>
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+    </section>
+
+
+</body>
+
+</html>

@@ -1,0 +1,421 @@
+
+
+/* First division nd Section one*/
+
+
+.first {
+    background-color: #fff;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav {
+    
+    padding: 0;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    
+}
+
+.bran{
+    margin-left: 50px;
+}
+
+.v{
+    margin-left: 47%;
+}
+
+.head1{
+    font-family: 'Kalam', cursive;
+    color: #06283D; 
+}
+
+.nav-item {
+    font-size: 20px;
+    margin-left: 12px;
+    color: #06283D; 
+}
+
+.btn1{
+    width: 8%;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+.btn1:hover{
+    background-color: #06283D;
+    
+
+}
+.btn2{
+    width: 8%;
+    margin-left: 1%;
+    font-size: 20px;
+    background-color: #06283D;
+
+}
+
+.nav-drop{
+    color: #06283D; 
+}
+
+.dropdown{
+    color: #06283D; 
+}
+
+
+.sign-in-a , .sign-in-a:hover{
+    text-decoration: none;
+    color: #fff; 
+}
+
+.sign-up-a{
+    text-decoration: none;
+    color: #06283D;
+}
+.btn1:hover .sign-up-a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*second division nd Section one */
+
+.second {
+    height: 400px;
+    background-color: #EAF6F6;
+}
+
+.intro {
+    float: left;
+    margin: 130px 100px 200px 400px;
+}
+
+.login {
+    font-size: 20px;
+    text-align: center;
+}
+
+.head {
+    font-size: 50px;
+}
+
+.ig1 {
+    margin: 80px 90px 200px 200px;
+    border-radius: 100%;
+    height: 16rem;
+}
+
+/*Section Two */
+
+.third {
+    width: 55%;
+    display: flex;
+    margin: 0 340px 80px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: #EAF6F6;
+    padding: 0;
+}
+
+.back{
+    background-color: #e7f8ee;
+    width: 45%;
+    height: 70%;
+}
+.ig2 {
+    height: 33rem;
+    width: 90%;
+    padding: 0;
+    margin: 2.5rem 1rem;
+    border-color: #EAF6F6;
+    border-radius: 10px;
+}
+
+.now {
+    padding: 100px 100px 40px;
+}
+
+.user {
+    width:19rem;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border-color: #abdcdc;
+    margin-left: 80px;
+}
+
+.pas {
+    width: 19rem;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border-color: #abdcdc;
+    margin-left: 80px;
+}
+
+.butn1 {
+    width: 19rem;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border-color: #0c9440;
+    background-color: #0c9440;
+    color: white;
+    font-weight: bold;
+    margin-left: 81px;
+}
+
+.butn1:hover {
+    background-color: black;
+}
+
+.butn2 {
+    width: 19rem;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border-color: #0c9440; 
+    color: #0c9440;
+    font-weight: bold;
+    margin-left: 81px;
+}
+
+.butn2:hover {
+    background-color: #0c9440;
+    color: white;
+}
+
+/* footer */
+
+#three {
+    background-color: #E4F9F5;
+}
+
+a.text-d {
+    font-size: 1.3rem;
+    color: #063442;
+    font-variant: inherit;
+    font-family: 'Bree Serif', serif;
+    line-height: 1px;
+}
+
+.text-f {
+    font-size: 1.4rem;
+    color: #063442;
+}
+
+.text-foot {
+    font-size: 1.4rem;
+    color: black;
+}
+
+.z {
+    height: 25rem;
+    width: 25rem;
+    margin: 10px 75px;
+}
+
+.c2 {
+    height: 25rem;
+    width: 25rem;
+    background-color: #E4F9F5;
+}
+
+.exp2 {
+    font-size: 50px;
+    font-variant: small-caps;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    letter-spacing: 4.3px;
+}
+
+.z {
+
+    height: 17.5rem;
+    width: 17.5rem;
+    margin: 10px 128px;
+    padding: 10px;
+}
+
+#second {
+    margin-bottom: 140px;
+    padding-top: 30px;
+}
+
+.sec1 {
+    margin-left: 12px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 25px;
+    color: black;
+}
+
+.two1 {
+    margin-left: 140px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.sec2 {
+    margin-left: 60px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 25px;
+    color: black;
+}
+
+.two2 {
+    margin-left: 140px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.sec3 {
+    margin-left: 10px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 25px;
+    color: black;
+}
+
+.two3 {
+    margin-left: 140px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.sec4 {
+    margin-left: 125px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 24px;
+    color: black;
+}
+
+.two4 {
+    margin-left: 140px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.sec5 {
+    margin-right: 150px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 24px;
+    color: black;
+}
+
+.two5 {
+    margin-left: 140px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.btn3 {
+    margin-right: 5px;
+    height: 55px;
+    width: 45%;
+    font-size: 25px;
+    font-variant: small-caps;
+    border-color: black;
+    border-radius: 3rem;
+}
+
+.btn3:hover {
+    background-color: #35858B;
+    ;
+}
+
+.Haymarket {
+    margin-top: 0;
+}
+
+.mail {
+    float: right;
+    margin: 4px 0 0 6px;
+    font-size: 22px;
+}
+
+.number {
+    float: right;
+    margin: 5px 130px 0 3px;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1000px)
+{
+
+    .first {
+       padding-right: 10px;
+    }
+
+    .btn1 {
+        margin: 30px 10px 0 10px;
+        width: 40%;
+        font-size: 23px;
+    }
+
+    .intro {
+        margin: 130px 100px 200px 100px;
+    }
+
+    .head {
+        font-size: 40px;
+        margin-left: 40px;
+    }
+
+    .ig1 {
+       margin: 0;
+       position: absolute;
+        border-radius: 100%;
+        height: 5rem;
+        left: 10rem;
+        top: 30rem;
+    }
+    
+    .ig2 {
+        height: 0;
+        width: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .third {
+        margin: 0;
+    }
+
+    .user {
+        margin-left: 12px;
+    }
+
+    .pas {
+        margin-left: 12px;
+    }
+   
+    .butn1 {
+        margin-left: 12px;
+    }
+    
+    .butn2 {
+        margin-left: 12px;
+        margin-bottom: 100px;
+    }
+    
+    .now {
+        padding: 30px 150px 40px;
+    }
+}
